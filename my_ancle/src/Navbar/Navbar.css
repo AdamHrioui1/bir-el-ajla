@@ -1,0 +1,45 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9b84ff;
+    color: #fff;
+    z-index: 10;
+}
+
+.navbar ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar ul a {
+    color: #fff;
+}
+
+.navbar ul li {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.logout__btn {
+    padding: 8px;
+    margin-left: 30px;
+
+    background-color: #fff;
+    color: #9b84ff;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+
+    font-weight: 700;
+}

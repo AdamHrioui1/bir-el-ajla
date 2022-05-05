@@ -1,0 +1,15 @@
+.client_page_header {
+    width: 100%;
+    margin-bottom: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client_page_header h1 {
+    margin: 0 20px;
+}
+.table__date__container {
+    width: 200px;
+}
