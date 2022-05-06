@@ -23,6 +23,7 @@ class Features {
 const ClientCtrl = {
     getClient: async (req, res) => {
         try {
+            // localhost:5000/api/client?name[regex]=name 1
             const features = new Features(Client.find(), req.query).filtring()
             const client = await features.query
             return res.json(client)
