@@ -2,6 +2,7 @@ const Client = require('../models/clientModel');
 
 class Features {
     // query === client.find()
+    // queryString === req.query
     constructor(query, queryString) {
         this.query = query,
         this.queryString = queryString
